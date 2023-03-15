@@ -1,0 +1,33 @@
+.menu{
+    margin: 10px 20%;
+}
+.card{
+    margin-bottom:30px;
+}
+.heading{
+    position:relative;
+    text-align: center;
+}
+.bag{
+    height:50px;
+    width:850px;
+    padding:0 30px;
+    display:flex;
+    flex:auto;
+    background-color:white;
+    position: absolute;
+    buttom:0px;
+    justify-content: space-between;
+    
+}
+.btn{
+    padding:8px;
+    margin:3px;
+    border-radius:5px;
+    font-size:18px;
+    color:white;
+    background-color:rgb(64 62 62);
+}
+.btn:hover{
+    cursor:pointer;
+}

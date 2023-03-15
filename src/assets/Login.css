@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    padding:0;
+	background-color:#def0ff;
+}
+.div{
+	width:100wh;
+	height:100vh;
+	background-color:#def0ff;
+	font-family: cosmic,sans-serif;
+}
+@font-face{
+	font-family: "Roboto-Light";
+	src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face{
+	font-family: "Roboto-Medium";
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+.container2,.container{
+	margin: 10px 0;
+	background-color: white;
+	width: 400px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 10px 15px  rgba(0, 0, 0, 0.3);
+}
+#signupbtn{
+	border:none;
+	background-color: transparent;
+	color:  #6e6363;
+}
+.top{
+	background-color: rgb(64 62 62);
+	text-align: center;
+	border: none;
+	border-radius: 5px 5px 40px 40px; 
+	height: 150px;
+}
+.topContent{
+	padding: 20px;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+
+}
+li{
+	color: #6e6363;
+	line-height: 30px;
+
+}
+#mainPara{
+	margin: 3% 0 3% 19%
+}
+input[type=email], input[type=password], input[type = text],input[type=tel]{
+	border: none;
+	border-bottom: 2px solid #6e6363;
+	width: 100%;
+}
+input[type=submit]{
+	border: none;
+	background-color:rgb(64 62 62);
+	color: #b4bae2;
+	border-radius: 20px;
+	padding: 7px;
+	width: 100px;
+}
+input[type=email]:focus, input[type=password]:focus, input[type=text],input[type=tel]:focus{
+	outline: none;
+}
+
+input[type=submit]:hover{
+	background-color: #2f2e2d;
+	cursor: pointer;
+
+}
+#submit1{
+	text-align: center;
+}
+#submit2{
+	text-align: center;
+}
+#mainHeading{
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: center;
+	color: #0f0f95;
+	font-size: 30px;
+}
+#mainHeading2{
+	display: flex;
+	margin-bottom: 10px;
+	padding-top: 30px;
+	justify-content: center;
+	color: #2f2e2d;
+	font-size: 30px;
+}
+.main2{
+	padding: 0px 50px 0px 50px;
+}
+#mainPara2{
+	display: flex;
+	color: #6e6363;
+	justify-content: flex-end;
+	margin-top: 30px;
+	padding: 20px 50px ;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+#password{
+	position: relative;
+	padding-right: 110px;
+}
+#fpassword{
+	position: absolute;
+	top: 1px;
+	right: 0;
+	font-family: Roboto-Medium;
+	font-size: 13px;
+}
+.fp{
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #6e6363;
+	outline: none;
+	
+}
+.signup{
+	padding: 30px 50px 0 50px;
+}
+.dummy{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
